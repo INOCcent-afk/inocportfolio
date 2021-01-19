@@ -220,7 +220,7 @@ address {
       justify-content: space-between;
       width: 100%;
       flex-wrap: wrap;
-      align-items: center;
+      align-items: flex-start;
       gap: 50px;
 
       .project-section-content-column {
@@ -482,7 +482,7 @@ address {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1500px) {
   #content {
     header {
       justify-content: center;
